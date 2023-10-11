@@ -1,0 +1,63 @@
+.Contenido{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.ContenidoFormulario{
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
+
+.Formulario{
+  background-color: rgb(46, 81,175);
+  border: 1px solid blue;
+  border-radius: 10px;
+  box-shadow: 5px 5px 0px darkblue;
+  padding: 5px;
+  width: 300px;
+  height: auto;
+  display: grid;
+  grid-template:
+  "LdlUsuari    TxtUsuario " 30ox
+  "lblPassword1  TxtPassword1" 30px
+  "LblPassword2  TxtPassword2" 30px
+  "Botones       Botones" 30px
+  ;
+}
+
+.Formulario>div>label{
+  color:white;
+  font-family: "Franklin Gothic Medium", "Arial narrow", Arial, sans-serif;
+  font-weight: bold;
+  text-align: left;
+  vertical-align: middle;
+  padding-left: 5px;
+}
+.Formulario>div>button{
+  background-color: rgb(46, 81,175);
+  color:white;
+  border:1px solid white;
+  border-radius: 15px;
+  font-weight: bold;
+  width: 100px;
+  cursor:pointer;
+}
+
+.TxtUsuario{
+  grid-area:TxtUsuario;;
+}
+
+.lblPassword1{
+  grid-area:lblPassword1 ;
+}
+.TxtPassword1{
+  grid-area:TxtPassword1 ;
+}
+.lblPassword2{
+  grid-area:lblPassword2 ;
+}
+.TxtPassword2{
+  grid-area:TxtPassword2 ;
+}
