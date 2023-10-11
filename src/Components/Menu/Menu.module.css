@@ -1,0 +1,27 @@
+.option-container{
+    display: flex;
+    height: 30px;
+    align-items: center;
+    
+}
+.separator{
+    margin-left: auto;
+}
+.option{
+    display: flex;
+    width:150px;
+    color: white;
+    height: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.option:haver{
+    color:rgb(95,6,34);
+    cursor: pointer;
+    font-weight:bold ;
+    background-color: rgb(203,169,169);
+    border-radius: 1rem;
+}
+
