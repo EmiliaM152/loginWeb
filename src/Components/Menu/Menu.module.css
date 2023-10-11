@@ -24,4 +24,17 @@
     background-color: rgb(203,169,169);
     border-radius: 1rem;
 }
+.option a{
+text-decoration: none;
+color: white;
+}
+
+
+.option a:haver{
+    color:rgb(95,6,34);
+    cursor: pointer;
+    font-weight:bold ;
+    
+}
+
 
